@@ -1,0 +1,27 @@
+.container {
+    max-width: 40rem;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 100%;
+    background-color: lightgrey;
+    padding: 0.5rem 2rem;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+
+.container:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+    cursor: pointer;
+}
